@@ -1,11 +1,18 @@
-.accordion {
+.wrapper {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion {
+  margin-top: 10px;
   max-width: 600px;
   width: 90%;
   margin-inline: auto;
 }
 .item {
-  padding: 10px 20px;
+  padding: 5px 20px;
   border: 2px solid #213547;
 }
 
@@ -25,4 +32,6 @@
 
 .title span {
   cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
 }
