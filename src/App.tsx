@@ -1,10 +1,11 @@
 import Accordion from './components/accordion/Accordion';
+import ColorGenerator from './components/colorGenerator/ColorGenerator';
 
 function App() {
   return (
     <>
-      <h1>20 projects</h1>
-      <Accordion />
+      {/* <Accordion /> */}
+      <ColorGenerator />
     </>
   );
 }
