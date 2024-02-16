@@ -1,0 +1,15 @@
+.container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.active {
+  color: yellow;
+}
+
+.inactive {
+  color: black;
+}
