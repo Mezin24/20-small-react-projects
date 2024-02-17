@@ -3,6 +3,7 @@ import ColorGenerator from './components/colorGenerator/ColorGenerator';
 import LoadMore from './components/load-more/LoadMore';
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
+import TreeView from './components/tree-view/TreeView';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <StarRating numOfStars={10} /> */}
       {/* <StarRating numOfStars={10} /> */}
       {/* <Slider /> */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+      <TreeView />
     </>
   );
 }

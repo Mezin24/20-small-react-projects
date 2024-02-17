@@ -1,0 +1,20 @@
+.tree-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.tree-menu {
+  width: 250px;
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tree-item p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
