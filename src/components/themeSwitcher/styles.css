@@ -1,0 +1,28 @@
+:root {
+  --background-color: #fff;
+  --text-color: #333;
+}
+
+[data-theme="dark"] {
+  --background-color: #111;
+  --text-color: #fff;
+}
+
+.theme-container {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.5s;
+}
+.theme-title {
+  color: var(--text-color);
+}
+.theme-btn {
+  background-color: var(--text-color);
+  color: var(--background-color)
+}

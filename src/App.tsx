@@ -4,6 +4,7 @@ import LoadMore from './components/load-more/LoadMore';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
+import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
 import TreeView from './components/tree-view/TreeView';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <Slider /> */}
       {/* <LoadMore /> */}
       {/* <TreeView /> */}
-      <QrCodeGenerator />
+      {/* <QrCodeGenerator /> */}
+      <ThemeSwitcher />
     </>
   );
 }
