@@ -1,6 +1,7 @@
 import Accordion from './components/accordion/Accordion';
 import ColorGenerator from './components/colorGenerator/ColorGenerator';
 import LoadMore from './components/load-more/LoadMore';
+import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
 import TreeView from './components/tree-view/TreeView';
@@ -14,7 +15,8 @@ function App() {
       {/* <StarRating numOfStars={10} /> */}
       {/* <Slider /> */}
       {/* <LoadMore /> */}
-      <TreeView />
+      {/* <TreeView /> */}
+      <QrCodeGenerator />
     </>
   );
 }
