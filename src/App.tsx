@@ -2,6 +2,7 @@ import Accordion from './components/accordion/Accordion';
 import ColorGenerator from './components/colorGenerator/ColorGenerator';
 import TubExample from './components/custom-tubs/TubExample';
 import LoadMore from './components/load-more/LoadMore';
+import ModalExample from './components/modal/ModalExample';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
 import Slider from './components/slider/Slider';
@@ -22,7 +23,8 @@ function App() {
       {/* <QrCodeGenerator /> */}
       {/* <ThemeSwitcher /> */}
       {/* <ScrollIndicator dataUrl='https://dummyjson.com/products?limit=100' /> */}
-      <TubExample />
+      {/* <TubExample /> */}
+      <ModalExample />
     </>
   );
 }
