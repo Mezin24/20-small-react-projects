@@ -1,0 +1,52 @@
+.gh-search-container {
+  margin-block: 1rem;
+}
+
+.gh-input {
+  padding: 10px;
+  border-radius: 7px 0 0 7px;
+}
+
+.gh-user {
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 800px;
+  margin-inline: auto;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.gh-avatar-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.gh-avatar {
+  width: 150px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.gh-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: inherit;
+}
+
+.gh-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.gh-info > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gh-subtitle {
+  font-weight: bold;
+}

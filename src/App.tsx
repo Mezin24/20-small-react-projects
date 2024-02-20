@@ -1,6 +1,7 @@
 import Accordion from './components/accordion/Accordion';
 import ColorGenerator from './components/colorGenerator/ColorGenerator';
 import TubExample from './components/custom-tubs/TubExample';
+import GithubFinder from './components/github-finder/GithubFinder';
 import LoadMore from './components/load-more/LoadMore';
 import ModalExample from './components/modal/ModalExample';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
@@ -24,7 +25,8 @@ function App() {
       {/* <ThemeSwitcher /> */}
       {/* <ScrollIndicator dataUrl='https://dummyjson.com/products?limit=100' /> */}
       {/* <TubExample /> */}
-      <ModalExample />
+      {/* <ModalExample /> */}
+      <GithubFinder />
     </>
   );
 }
