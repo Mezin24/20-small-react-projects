@@ -6,6 +6,7 @@ import LoadMore from './components/load-more/LoadMore';
 import ModalExample from './components/modal/ModalExample';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
+import SearchAutocomplete from './components/serach-autocomplete/SearchAutocomplete';
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
 import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
@@ -26,7 +27,8 @@ function App() {
       {/* <ScrollIndicator dataUrl='https://dummyjson.com/products?limit=100' /> */}
       {/* <TubExample /> */}
       {/* <ModalExample /> */}
-      <GithubFinder />
+      {/* <GithubFinder /> */}
+      <SearchAutocomplete />
     </>
   );
 }
