@@ -1,5 +1,6 @@
 import Accordion from './components/accordion/Accordion';
 import ColorGenerator from './components/colorGenerator/ColorGenerator';
+import TubExample from './components/custom-tubs/TubExample';
 import LoadMore from './components/load-more/LoadMore';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
@@ -20,7 +21,8 @@ function App() {
       {/* <TreeView /> */}
       {/* <QrCodeGenerator /> */}
       {/* <ThemeSwitcher /> */}
-      <ScrollIndicator dataUrl='https://dummyjson.com/products?limit=100' />
+      {/* <ScrollIndicator dataUrl='https://dummyjson.com/products?limit=100' /> */}
+      <TubExample />
     </>
   );
 }

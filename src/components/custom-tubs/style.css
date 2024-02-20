@@ -1,0 +1,32 @@
+.tabs-header {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-label {
+  padding: 10px 15px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.tab-label:first-of-type {
+  border-radius: 7px 0 0 7px;
+}
+
+.tab-label:last-of-type {
+  border-radius: 0 7px 7px 0;
+}
+
+.tab-label.active {
+  background-color: white;
+  color: #242424;
+}
+
+.tabs-content {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
