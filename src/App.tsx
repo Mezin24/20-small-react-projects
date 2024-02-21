@@ -10,6 +10,7 @@ import SearchAutocomplete from './components/serach-autocomplete/SearchAutocompl
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
 import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
+import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import TreeView from './components/tree-view/TreeView';
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* <TubExample /> */}
       {/* <ModalExample /> */}
       {/* <GithubFinder /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      <TicTacToe />
     </>
   );
 }
