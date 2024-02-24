@@ -1,6 +1,8 @@
 import Accordion from './components/accordion/Accordion';
 import ColorGenerator from './components/colorGenerator/ColorGenerator';
 import TubExample from './components/custom-tubs/TubExample';
+import FeatureFlag from './components/featureFlag/FeatureFlag';
+import { FeatureFlagProvider } from './components/featureFlag/content/FeatureFlagProvider';
 import GithubFinder from './components/github-finder/GithubFinder';
 import LoadMore from './components/load-more/LoadMore';
 import ModalExample from './components/modal/ModalExample';
@@ -30,7 +32,10 @@ function App() {
       {/* <ModalExample /> */}
       {/* <GithubFinder /> */}
       {/* <SearchAutocomplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <FeatureFlagProvider>
+        <FeatureFlag />
+      </FeatureFlagProvider>
     </>
   );
 }
