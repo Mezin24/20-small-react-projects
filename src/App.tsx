@@ -14,6 +14,7 @@ import StarRating from './components/star-rating/StarRating';
 import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import TreeView from './components/tree-view/TreeView';
+import UseClickOutsideTest from './components/useClickOutside/UseClickOutsideTest';
 import UseFetchTest from './components/useFetch/UseFetchTest';
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
       {/* <FeatureFlagProvider>
         <FeatureFlag />
       </FeatureFlagProvider> */}
-      <UseFetchTest />
+      {/* <UseFetchTest /> */}
+      <UseClickOutsideTest />
     </>
   );
 }
