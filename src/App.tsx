@@ -14,6 +14,7 @@ import StarRating from './components/star-rating/StarRating';
 import ThemeSwitcher from './components/themeSwitcher/ThemeSwitcher';
 import TicTacToe from './components/tic-tac-toe/TicTacToe';
 import TreeView from './components/tree-view/TreeView';
+import UseFetchTest from './components/useFetch/UseFetchTest';
 
 function App() {
   return (
@@ -33,9 +34,10 @@ function App() {
       {/* <GithubFinder /> */}
       {/* <SearchAutocomplete /> */}
       {/* <TicTacToe /> */}
-      <FeatureFlagProvider>
+      {/* <FeatureFlagProvider>
         <FeatureFlag />
-      </FeatureFlagProvider>
+      </FeatureFlagProvider> */}
+      <UseFetchTest />
     </>
   );
 }
