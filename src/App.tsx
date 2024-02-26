@@ -8,6 +8,7 @@ import LoadMore from './components/load-more/LoadMore';
 import ModalExample from './components/modal/ModalExample';
 import QrCodeGenerator from './components/qr-code-generator/QrCodeGenerator';
 import ScrollIndicator from './components/scroll-indicator/ScrollIndicator';
+import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
 import SearchAutocomplete from './components/serach-autocomplete/SearchAutocomplete';
 import Slider from './components/slider/Slider';
 import StarRating from './components/star-rating/StarRating';
@@ -41,7 +42,8 @@ function App() {
       </FeatureFlagProvider> */}
       {/* <UseFetchTest /> */}
       {/* <UseClickOutsideTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      <ScrollToTopAndBottom />
     </>
   );
 }

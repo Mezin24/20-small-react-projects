@@ -1,20 +1,20 @@
 import { useFetch } from './useFetch';
 
-interface Product {
+export interface Product {
   id: number;
   title: string;
   description: string;
   price: number;
 }
 
-interface ApiResponse {
+export interface ApiResponse {
   products: Product[];
   total: number;
   limit: number;
   skip: number;
 }
 
-const API = 'https://dummyjson.com';
+export const API = 'https://dummyjson.com';
 
 const UseFetchTest = () => {
   const { data, error, isLoading } = useFetch<ApiResponse>({
