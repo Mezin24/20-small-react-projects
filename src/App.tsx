@@ -19,6 +19,7 @@ import TreeView from './components/tree-view/TreeView';
 import UseClickOutsideTest from './components/useClickOutside/UseClickOutsideTest';
 import UseFetchTest from './components/useFetch/UseFetchTest';
 import UseWindowResizeTest from './components/useWindowResize/UseWindowResizeTest';
+import WeatherApp from './components/weather-app/WeatherApp';
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <UseClickOutsideTest /> */}
       {/* <UseWindowResizeTest /> */}
       {/* <ScrollToTopAndBottom /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      <WeatherApp />
     </>
   );
 }
